@@ -1,0 +1,177 @@
+* {
+
+    /*border: solid black 1px;*/
+    padding: 0px;
+    margin: 0px;
+    min-height: 20px;
+    margin: 20px;
+}
+
+body {
+
+    background: url("images/IMG_5868.JPG") no-repeat top left;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: rgba(48, 176, 80, .8);
+}
+
+@font-face {
+    font-family: DroidSerif;
+    src: url(font/DroidSerif.ttf);
+}
+
+@font-face {
+    font-family: Kreon;
+    src: url(font/Kreon-Regular.ttf);
+    font-size: 14pt;
+}
+
+@font-face {
+    font-family: PoiretOne;
+    src: url(font/PoiretOne-Regular.ttf);
+}
+
+.upperMain {
+    height: 190px;
+    background: url("images/flagBkgrd.jpg") no-repeat; 
+    background-size: 100% 100%;
+    border: 2px solid #02572A;
+    border-radius: 20px;
+}
+
+#header {
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: DroidSerif;
+    color: white;
+    /*text-shadow: 5px 5px 5px #024B24;*/
+}
+
+.steve {
+    font-size: 42pt;
+    margin-left: 60px;
+    text-shadow: 5px 5px 5px #014220;
+    text-indent: 5px;
+    background-color: rgba(1, 66, 32, .25);
+    border-radius: 20px;
+}
+
+br {
+    line-height: 90%;
+}
+
+.univLakes {
+    font-size: 24px;
+    margin-bottom: 105px;
+    margin-left: 50px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px #014220;
+    text-indent: 5px;
+    background-color: rgba(1, 66, 32, .25);
+    border-radius: 20px;
+}
+
+ul {
+    background-color: rgba(3, 114, 55, .75); /*green*/
+    width: 840px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 210px;
+    top: 181px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+
+    margin: auto;
+}
+
+li a {
+    clear: both;
+    color: white;
+    font-family: DroidSerif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fbIcon {
+
+    background: url("images/FB_Logo.png") no-repeat; 
+    background-size: 100% 100%;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+.register {
+    background: url("images/register2.jpg") no-repeat; 
+    background-size: 100% 100%;
+    /*background-color: white;*/
+    border-radius: 15px;
+    position: absolute;
+    top: 270px;
+    right: 10px;
+    height: 85px;
+    width: 100px;
+}
+
+.lowerMain {
+    min-height: 300px;
+    position: relative;
+}
+
+.portrait {
+    position: absolute;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    width: 295px;
+    height: 230px;
+    border-radius: 15px;
+    border: solid #02572A 1px;
+}
+
+.aboutConstable, .contactSteve, .electionDay, .endorsements {
+    display: none;
+}
+
+.aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements {
+    max-width: 700px;
+    position: absolute;
+    margin-left: 350px;
+    background-color: rgba(234, 252, 242, .95);
+    font-family: PoiretOne;
+    font-size: 15pt;
+    color: black;
+    border-radius: 15px;
+    border: solid #02572A 1px;
+}
+
+.aboutSG {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p br {
+    line-height: 80%;
+}
+
+.aboutConstable a {
+    font-size: 12pt;
+}
+
+.electionDay span {
+    font-size: 20pt;
+}
+
+
+
