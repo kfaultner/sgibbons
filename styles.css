@@ -72,13 +72,13 @@ br {
     border-radius: 20px;
 }
 
-ul {
+.niceMenu {
     background-color: rgba(3, 114, 55, .75); /*green*/
-    width: 840px;
+    width: 875px;
     padding: 5px;
     border-radius: 5px;
     position: absolute;
-    right: 210px;
+    right: 150px;
     top: 181px;
 }
 
@@ -105,7 +105,7 @@ li a {
     border-radius: 5px;
     position: absolute;
     top: 150px;
-    right: 100px;
+    right: 75px;
     height: 50px;
     width: 50px;
 }
@@ -137,12 +137,13 @@ li a {
     border: solid #02572A 1px;
 }
 
-.aboutConstable, .contactSteve, .electionDay, .endorsements {
+.aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements {
     display: none;
 }
 
-.aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements {
-    max-width: 700px;
+.quote, .aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements {
+    max-width: 625px;
+    max-height: 350px;
     position: absolute;
     margin-left: 350px;
     background-color: rgba(234, 252, 242, .95);
@@ -151,15 +152,26 @@ li a {
     color: black;
     border-radius: 15px;
     border: solid #02572A 1px;
+    overflow: scroll;
+    line-height: 150%;
 }
 
 .aboutSG {
     text-align: center;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
-p {
-    text-align: center;
+.aboutSteve   {
+    text-align: left;
+    padding-left: 5px;
 }
+
+p, .aboutSteve span {
+    text-align: center;
+    display: block;
+}
+
 
 p br {
     line-height: 80%;
@@ -169,9 +181,13 @@ p br {
     font-size: 12pt;
 }
 
-.electionDay span {
-    font-size: 20pt;
+.contactSteve, .electionDay span {
+    font-size: 18pt;
 }
 
+.addLine {
+    display: inline-block;
+    padding-left: 8px;
+}
 
 

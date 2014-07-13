@@ -2,12 +2,17 @@ $(function(){
 
     function hideWhatINeed()
     {
-        $(".aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements").hide();
+        $(".quote, .aboutSteve, .aboutConstable, .contactSteve, .electionDay, .endorsements").hide();
     }
+    // $('.quote').show();
 
     $('.mainTitle, .defineConstable, .contact, .elect, .endorse').on('click', function () {
         
         var $this = $(this);
+        $('.portrait').on('click', function(){
+            hideWhatINeed();
+            $('.quote').show();
+        });
 
         if ($this.html() == 'About Steve Gibbons') {
 
